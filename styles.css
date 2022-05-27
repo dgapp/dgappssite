@@ -1,0 +1,65 @@
+.background {
+  background-image: url("./discgolf_img.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.overlay::-webkit-scrollbar {
+  display: none;
+}
+
+.overlay {
+  opacity: 0.7;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: fixed;
+  overflow-y: scroll;
+}
+
+.page-title {
+  z-index: 2;
+  color: white;
+  text-align: center;
+  margin-top: 3em;
+  font-size: 64px;
+}
+
+.page-info-text {
+  color: white;
+  z-index: 2;
+  font-family: "Cardo", serif;
+  text-align: center;
+  font-size: 24px;
+  width: 40%;
+  margin-left: 30%;
+}
+
+.appstore-links {
+  text-align: center;
+}
+
+.google-play {
+  width: 250px;
+  height: 100px;
+}
+
+.appstore {
+  width: 250px;
+  height: 69px;
+  margin-bottom: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
